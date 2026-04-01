@@ -11,7 +11,7 @@ export default function App() {
 
     const router = createBrowserRouter(
     [
-      {path:'/', element:<Layout/> , children:[
+      {path:'/home', element:<Layout/> , children:[
         {index:true, element:<Home/>},
         {path:'/about', element:<About/>},
         {path:'/react_assigment_one/', element:<Home/>},
