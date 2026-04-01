@@ -40,7 +40,7 @@ export default function Navbar() {
               <li className="nav-item ">
                 <NavLink
                   className="nav-link text-white fw-semibold fs-5 me-3"
-                  to="/portofolio"
+                  to="/portfolio"
                 >
                   portfolio
                 </NavLink>
