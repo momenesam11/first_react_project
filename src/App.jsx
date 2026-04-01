@@ -14,6 +14,7 @@ export default function App() {
       {path:'/', element:<Layout/> , children:[
         {index:true, element:<Home/>},
         {path:'/about', element:<About/>},
+        {path:'/react_assigment_one/', element:<Home/>},
         {path:'/contact', element:<Contact/>},
         {path:'/portofolio', element:<Portofolio/>},
         {path:'*', element: <h1> Not Found Page  </h1>}
