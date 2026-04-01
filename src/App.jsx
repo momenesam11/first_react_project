@@ -11,15 +11,15 @@ export default function App() {
 
     const router = createBrowserRouter(
     [
-      {path:'/home', element:<Layout/> , children:[
+      {path:'/', element:<Layout/> , children:[
         {index:true, element:<Home/>},
         {path:'/about', element:<About/>},
-        {path:'/react_assigment_one/', element:<Home/>},
         {path:'/contact', element:<Contact/>},
         {path:'/portofolio', element:<Portofolio/>},
         {path:'*', element: <h1> Not Found Page  </h1>}
       ]}
-    ]
+    ],
+      {basename: '/react_assigment_one/'}
   )
   return <>
 
