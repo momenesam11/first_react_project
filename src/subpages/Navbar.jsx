@@ -9,9 +9,9 @@ export default function Navbar() {
 
       <nav className="navbar navbar-expand-lg  px-5">
         <div className="container-fluid ">
-          <NavLink className="navbar-brand fs-1 px-0 fw-bold text-white " to="/">
+          <Link className="navbar-brand fs-1 px-0 fw-bold text-white " to="/">
             Start Framework
-          </NavLink>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -40,7 +40,7 @@ export default function Navbar() {
               <li className="nav-item ">
                 <NavLink
                   className="nav-link text-white fw-semibold fs-5 me-3"
-                  to="/portfolio"
+                  to="/portofolio"
                 >
                   portfolio
                 </NavLink>
