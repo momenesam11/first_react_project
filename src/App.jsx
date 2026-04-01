@@ -1,13 +1,13 @@
 import React from 'react'
 import Layout from './layouts/Layout'
 import Home from './pages/home/Home.jsx'
-import Portofolio from './pages/portfolio/Portofolio.jsx'
+import Portfolio from './pages/portfolio/Portfolio.jsx'
 import Contact from './pages/contact/Contact.jsx'
 import About from './pages/about/About.jsx'
 import { createHashRouter, RouterProvider } from 'react-router-dom'
 
-export default function App() {
-  const router = createHashRouter([
+const router = createHashRouter(
+  [
     {
       path: '/',
       element: <Layout />,
@@ -15,11 +15,16 @@ export default function App() {
         { index: true, element: <Home /> },
         { path: 'about', element: <About /> },
         { path: 'contact', element: <Contact /> },
-        { path: 'portfolio', element: <Portofolio /> },
+        { path: 'portfolio', element: <Portfolio /> },
         { path: '*', element: <h1>Not Found Page</h1> },
       ],
     },
-  ])
+  ],
+  {
+    basename: '/react_assigment_one',
+  }
+)
 
+export default function App() {
   return <RouterProvider router={router} />
 }

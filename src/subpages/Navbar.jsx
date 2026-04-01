@@ -9,9 +9,9 @@ export default function Navbar() {
 
       <nav className="navbar navbar-expand-lg  px-5">
         <div className="container-fluid ">
-          <Link className="navbar-brand fs-1 px-0 fw-bold text-white " to="/">
+          <NavLink className="navbar-brand fs-1 px-0 fw-bold text-white " to="/">
             Start Framework
-          </Link>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
