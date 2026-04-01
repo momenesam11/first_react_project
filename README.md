@@ -1,21 +1,44 @@
-# React + Vite
+# 🚀 First React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is my first React application built during my Frontend Diploma at Route.
 
-Currently, two official plugins are available:
+## 💡 Overview
+A modern portfolio-style website built using React, focusing on clean UI, smooth user experience, and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- Built with React + Vite
+- Fully Responsive Design (mobile & desktop)
+- Smooth scroll animations
+- Clean and reusable component structure
+- Simple and user-friendly navigation
 
-## React Compiler
+## 🔥 What makes this project special?
+This project was originally required as a basic assignment **without responsiveness**.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+After improving my skills, I decided to upgrade it by:
+- Making it fully responsive 📱
+- Adding scroll animations ✨
+- Enhancing the UI/UX experience 🎯
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+- React
+- Vite
+- Bootstrap
+- React Router
+- React Icons
+- Font Awesome
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# react_assigment_one" 
-"# react_assigment_one" 
-"# first_react_project" 
-"# react_first_project" 
-"# react_first_project" 
+## 🌐 Live Demo
+👉 https://first-react-project-eight-phi.vercel.app/
+
+## 📂 Repository
+👉 https://github.com/momenesam11/first_react_project
+
+---
+
+## 👨‍💻 About Me
+I'm a UI/UX Designer with frontend development skills, focused on building modern, responsive, and user-friendly web experiences.
+
+---
+
+⭐ If you like this project, feel free to give it a star!
