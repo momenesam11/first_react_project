@@ -4,7 +4,7 @@ import Home from './pages/home/Home.jsx'
 import Portofolio from './pages/portfolio/Portfolio.jsx'
 import Contact from './pages/contact/Contact.jsx'
 import About from './pages/about/About.jsx'
-import  { RouterProvider, createBrowserRouter} from 'react-router-dom'
+import  { HashRouter , createBrowserRouter} from 'react-router-dom'
 
 
 export default function App() {
@@ -18,12 +18,11 @@ export default function App() {
         {path:'/portofolio', element:<Portofolio/>},
         {path:'*', element: <h1> Not Found Page  </h1>}
       ]}
-    ],
-      {basename: '/react_assigment_one/'}
+    ]
   )
   return <>
 
-    <RouterProvider router={router}/>
+    <HashRouter  router={router}/>
 
   </>
 }
